@@ -1,0 +1,228 @@
+@media (hover: hover) and (pointer: fine) {
+  a:hover {
+    color: var(--color-light-gray);
+    scale: 1.1;
+  }
+
+  .button:hover {
+    background-color: var(--color-light-gray);
+  }
+
+  .header-burger-button:hover {
+    color: var(--color-light-gray);
+    border-color: currentColor;
+  }
+
+  .banner-pagination-list-item:hover .banner-pagination-button {
+    background-color: var(--color-light);
+  }
+  .card-button:hover {
+    color: var(--color-dark-gray);
+  }
+  .training-types-item:hover {
+    scale: 1.1;
+    opacity: 1;
+  }
+
+  .join-us-video-play-button:hover {
+    filter: invert(1);
+    scale: 1.1;
+  }
+  .join-us-video-play-button:hover .join-us-video-play-button::after {
+    filter: grayscale(40);
+  }
+  .input:hover {
+    border-color: var(--color-light);
+  }
+}
+
+@media (max-width: 1919px) {
+  .motivation-card-image {
+    margin-block: -20px;
+  }
+}
+
+@media (max-width: 1070px) {
+  .form-grid-wrapper {
+    column-gap: 10px;
+    grid-template-columns: 1fr;
+  }
+
+  .calculate-form-body .button {
+    width: 100%;
+  }
+}
+@media (max-width: 1024px) {
+  .motivation-card {
+    padding-block: 50px;
+  }
+  .motivation-card-image {
+    max-width: 35%;
+    margin-block: 0;
+  }
+
+  .training-types-list {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+
+  .join-us {
+    padding-bottom: 4.5rem;
+  }
+
+  .join-us-title {
+    margin-bottom: 3.75rem;
+  }
+
+  .location-section {
+    flex-direction: column-reverse;
+  }
+  .location-body {
+    padding: 3.75rem 0 1.875rem;
+  }
+  .map-wrap {
+    width: 100%;
+  }
+
+  .footer-main {
+    padding-top: 80px;
+    padding-bottom: 50px;
+  }
+
+  .footer-header {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  .footer-body {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 30px;
+  }
+  .footer-body > :nth-last-child(1) {
+    order: 3;
+  }
+  .footer-body > :nth-last-child(2) {
+    order: 4;
+  }
+}
+
+@media (max-width: 870px) {
+  :root {
+    --header-height: 104px;
+  }
+
+  .header {
+    flex-wrap: wrap;
+    row-gap: 0.5rem;
+    padding-top: 1rem;
+  }
+  .header-menu {
+    order: 1;
+    flex-basis: 100%;
+  }
+  .header-menu-link {
+    height: 2.5rem;
+  }
+
+  .join-us-form-body {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1.5625rem;
+  }
+  .join-us-video-wrapper {
+    padding: 5rem 1.875rem;
+  }
+  .join-us-title {
+    margin-bottom: 1.875rem;
+  }
+  .join-us-form-body .button {
+    width: 100%;
+    max-width: 400px;
+  }
+  .calculate {
+    padding-bottom: 1.125rem;
+  }
+
+  .calculate-inner {
+    flex-direction: column;
+  }
+  .calculate-table-wrapper {
+    aspect-ratio: 1.5;
+    margin-top: 30px;
+  }
+  .bmi-table {
+    width: 80%;
+  }
+  .calculate-table-wrapper::after {
+    display: none;
+  }
+}
+@media (max-width: 780px) {
+  html {
+    font-size: 15px;
+  }
+  .join-us-video-play-button {
+    width: 70px;
+  }
+}
+
+@media (max-width: 550px) {
+  .motivation-card,
+  .motivation-item:nth-child(even) .motivation-card {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .motivation-card-image {
+    max-width: 60%;
+  }
+  .motivation-card {
+    padding-block: 2rem;
+    row-gap: 2.625rem;
+  }
+  .training-types-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 470px) {
+  html {
+    font-size: 14px;
+  }
+  .header-menu-list {
+    column-gap: 2rem;
+  }
+
+  .family-body {
+    margin-bottom: 3.625rem;
+  }
+
+  .footer-body {
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+  }
+  .footer-soc1als {
+    justify-content: space-around;
+  }
+  .footer-soc1als-list {
+    justify-content: center;
+    column-gap: 40px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 435px) {
+  .gallery-item {
+    width: 100%;
+  }
+}
+
+@media (max-width: 380px) {
+  .header button {
+    padding-inline: 0.625rem;
+  }
+  .header {
+    padding-inline: 1rem;
+  }
+}

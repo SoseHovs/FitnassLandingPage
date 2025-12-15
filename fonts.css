@@ -1,0 +1,27 @@
+/* Heebo Light */
+@font-face {
+  font-family: 'Heebo';
+  src: local('Heebo Light'), url('fonts/Heebo-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Heebo Bold */
+@font-face {
+  font-family: 'Heebo';
+  src: local('Heebo Bold'), url('fonts/Heebo-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Yantramanav Bold */
+@font-face {
+  font-family: 'Yantramanav';
+  src: local('Yantramanav Bold'),
+    url('fonts/Yantramanav-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}

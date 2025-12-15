@@ -1,0 +1,27 @@
+:root {
+  --font-base: 'Heebo', sans-serif;
+  --font-alt: 'Yantramanav', sans-serif;
+
+  --font-weight-light: 300;
+  --font-weight-bold: 700;
+
+  --color-dark: #000000;
+  --color-light: #ffffff;
+  --color-dark-gray: #404040;
+  --color-light-gray: #c4c4c4;
+  --bg-color-dark: #131619;
+  --text-color-dark-gray: #706161;
+
+  --border-radius: 1.875rem;
+  --border-radius-circle: 50%;
+  --border: 0.0625rem solid var(--color-light);
+
+  --input-height: 3.375rem;
+
+  --container-width: 1300px;
+  --container-padding-x: 0.9375rem;
+
+  --transition-duration: 0.2s;
+
+  --header-height: 5.625rem;
+}

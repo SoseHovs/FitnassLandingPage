@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kropp Fitness</title>
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="variables.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="elements.css">
+    <link rel="stylesheet" href="utilities.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="media.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+    <header class="header flex">
+        <a href="/" class="header-logo">
+            <img src="img/logo.png" alt="Kropp logo" class="header-logo-image" width="135" height="25" loading="lazy">
+        </a>
+        <nav class="header-menu">
+            <ul class="header-menu-list flex">
+                <li class="header-menu-item">
+                    <a href="/" class="header-menu-link is-current">Home</a>
+                </li>
+                <li class="header-menu-item">
+                    <a href="/" class="header-menu-link">Pages</a>
+                </li>
+                <li class="header-menu-item">
+                    <a href="/" class="header-menu-link">Portfolio</a>
+                </li>
+                <li class="header-menu-item">
+                    <a href="/" class="header-menu-link">Blog</a>
+                </li>
+                <li class="header-menu-item">
+                    <a href="/" class="header-menu-link">Shop</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header-actions flex">
+            <button type="button" class="header-book-button button">Book now</button>
+            <button class="header-burger-button" title="Open menu">
+                <span class="visually-hidden">Open menu</span>
+                <span class="header-burger-button-line"></span>
+                <span class="header-burger-button-line"></span>
+                <span class="header-burger-button-line"></span>
+
+            </button>
+
+
+        </div>
+    </header>
+    <main class="main-content">
+        <h1 class="visually-hidden">Kropp Fitness Club</h1>
+        <section class="banner flex">
+            <h2 class="visually-hidden">Upcoming events</h2>
+
+
+            <div class="banner-body-wrapper">
+                <div class="banner-body show">
+                    <div class="banner-info flex">
+                        <p>New event <br>
+                            coming up / <time datetime="06-07">june 7 </time> &nbsp;- &nbsp;<time datetime="06-13">13
+                            </time></p>
+                    </div>
+                    <h3 class="banner-title">Crossfit</h3>
+                </div>
+
+                <div class="banner-body">
+                    <div class="banner-info flex">
+                        <p>New event <br>
+                            coming up / <time datetime="07-15">july 15 </time> &nbsp;- &nbsp;<time datetime="07-15">20
+                            </time></p>
+                    </div>
+                    <h3 class="banner-title">Hyrox</h3>
+                </div>
+
+                <div class="banner-body">
+                    <div class="banner-info flex">
+                        <p>New event <br>
+                            coming up / <time datetime="08-08">august 8 </time> &nbsp;- &nbsp;<time datetime="08-20">20
+                            </time></p>
+                    </div>
+                    <h3 class="banner-title">Running</h3>
+                </div>
+            </div>
+
+            <div class="banner-pagination">
+                <ul class="banner-pagination-list flex">
+                    <li class="banner-pagination-list-item"><button class="banner-pagination-button is-current"
+                            type="button"></button></li>
+                    <li class="banner-pagination-list-item"><button class="banner-pagination-button"
+                            type="button"></button></li>
+                    <li class="banner-pagination-list-item"><button class="banner-pagination-button "
+                            type="button"></button></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="motivations">
+            <h2 class="visually-hidden"> Fitness Motivational Posts</h2>
+            <ul class="motivational-list">
+                <li class="motivation-item">
+                    <div class="motivation-card container flex">
+                        <div class="card-body-spacing">
+                            <h3 class="backdrop-title title-medium backdrop-title-plus" data-title="Strong">Be you,
+                                just stronger!
+                                <br> Power is in you
+                            </h3>
+                            <div>
+                                <p class="card-description">Unum solum justo ex ius. Pro cu probo laboramus eius
+                                    insolens euripidis te eos,
+                                    ut
+                                    agam tota.</p>
+                                <a class="card-button button transparent">View more</a>
+                            </div>
+                        </div>
+                        <img class="motivation-card-image" src="img/sportsman.jpg"
+                            alt="A man pulling himself up on the bar" width="518" height="760" loading="lazy">
+                    </div>
+                </li>
+                <li class="motivation-item">
+                    <div class="motivation-card container flex">
+                        <div class="card-body-spacing">
+                            <h3 class="backdrop-title title-medium backdrop-title-plus" data-title="Start">Today is
+                                the best
+                                <br> day to start!
+                            </h3>
+                            <div>
+                                <p class="card-description">Sed abhorreant constituam consectetuer eu. At mei clita
+                                    deserunt, his movet molestie
+                                    nemore.</p>
+                                <a class="card-button button">View more</a>
+                            </div>
+                        </div>
+                        <img class="motivation-card-image" src="img/boy workout.jpg"
+                            alt="Boy doing exercise with dumbbells in gym" width="518" height="760" loading="lazy">
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+
+        <section class="training-types full-width-container">
+            <h2 class="visually-hidden">Training Types</h2>
+            <ul class="training-types-list">
+                <li class="training-types-item flex flex-column">
+                    <img class="training-types-image" src="img/icons/1.svg" alt="" width="150" height="140"
+                        loading="lazy">
+                    <h3 class="training-type-item-title">Maxpump</h3>
+                </li>
+                <li class="training-types-item flex flex-column ">
+                    <img class="training-types-image" src="img/icons/2.svg" alt="" width="150" height="140"
+                        loading="lazy">
+                    <h3 class="training-type-item-title">aron gym</h3>
+                </li>
+                <li class="training-types-item flex flex-column ">
+                    <img class="training-types-image" src="img/icons/3.svg" alt="" width="150" height="140"
+                        loading="lazy">
+                    <h3 class="training-type-item-title">fit & tone</h3>
+                </li>
+                <li class="training-types-item flex flex-column ">
+                    <img class="training-types-image" src="img/icons/4.svg" alt="" width="150" height="140"
+                        loading="lazy">
+                    <h3 class="training-type-item-title">forza</h3>
+                </li>
+                <li class="training-types-item flex flex-column ">
+                    <img class="training-types-image" src="img/icons/5.svg" alt="" width="150" height="140"
+                        loading="lazy">
+                    <h3 class="training-type-item-title">balance fitness</h3>
+                </li>
+                <li class="training-types-item flex flex-column ">
+                    <img class="training-types-image" src="img/icons/6.svg" alt="" width="150" height="140"
+                        loading="lazy">
+                    <h3 class="training-type-item-title">sculpt</h3>
+                </li>
+            </ul>
+        </section>
+
+
+        <section class="join-us">
+            <div class="join-us-video-wrapper flex">
+                <video class="join-us-video" src="" width="960" height="600" poster="img/video-img.jpg "></video>
+                <button class="join-us-video-play-button" type="button">
+                    <span class="visually-hidden">Play</span>
+                </button>
+            </div>
+
+
+            <div class="join-us-body container">
+                <h2 class="join-us-title title-big">Join us</h2>
+
+                <form class="join-us-form">
+                    <header class="join-us-form-header flex flex-column">
+                        <h3 class="join-us-form-title backdrop-title centered title-big" data-title="Go!">
+                            Start here
+                        </h3>
+                        <p class="join-us-form-subtitle card-description card-description-centered">
+                            Fill the form below to start your journey
+                        </p>
+                    </header>
+
+                    <div class="join-us-form-body flex">
+                        <label class="visually-hidden" for="username">Name</label>
+                        <input class="join-us-form-input input" id="username" placeholder="Name" />
+
+                        <label class="visually-hidden" for="email">Email</label>
+                        <input class="join-us-form-input input" id="email" placeholder="Email" type="email" />
+
+                        <button class="card-button button" type="submit">
+                            Subscribe
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section class="location-section flex full-width-container">
+            <h2 class="visually-hidden">Location</h2>
+            <div class="map-wrap">
+                <div class="map-cover"></div>
+                <iframe src="https://www.google.com/maps?q=68+Jay+Street,+Brooklyn,+NY+11201&z=16&t=p&output=embed"
+                    loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+
+            <div class="location-body flex flex-column">
+                <h3 class="location-title backdrop-title centered title-medium" data-title="look">
+                    Find us near
+                    you</h3>
+                <p class="card-description card-description-centered ">Nec suas signiferumque id. An eum labore commodo
+                    principes. Usu diam
+                    noluisse cu, nam adipisci</p>
+                <a class="location-card-button card-button button">View more</a>
+            </div>
+        </section>
+
+        <section class="family-section flex flex-column">
+            <div class="family-body flex flex-column">
+                <h3 class="family-title backdrop-title centered title-big" data-title="part">
+                    Be part of our fit family
+                </h3>
+                <p class="card-description">
+                    Training helps you think and feel better. join us!
+                </p>
+            </div>
+
+            <div class="family-slider swiper">
+                <ul class="family-gallery-list swiper-wrapper">
+                    <li class="gallery-item swiper-slide">
+                        <img src="img/family-sec-1.jpg" alt="Man training" width="414" height="479">
+                    </li>
+                    <li class="gallery-item swiper-slide">
+                        <img src="img/family-sec-2.jpg" alt="Man with fitness coach" width="744" height="479">
+                    </li>
+                    <li class="gallery-item swiper-slide">
+                        <img src="img/family-sec-3.jpg" alt="Two women training" width="396" height="479">
+                    </li>
+                    <li class="gallery-item swiper-slide">
+                        <img src="img/family-sec-4.jpg" alt="Man after training" width="396" height="479">
+                    </li>
+                    <li class="gallery-item swiper-slide">
+                        <img src="img/family-sec-5.jpg" alt="Woman lifting kettlebell" width="414" height="479">
+                    </li>
+                </ul>
+
+                <!-- navigation -->
+                <button class="swiper-button-prev"></button>
+                <button class="swiper-button-next"></button>
+            </div>
+        </section>
+
+
+        <section class="calculate">
+            <h2 class="visually-hidden">BMI calculation</h2>
+            <div class="calculate-inner container flex">
+                <div class="card-body-spacing">
+                    <form class="user-info-form">
+                        <header class="calculate-bmi">
+                            <h3 class="backdrop-title title-medium backdrop-title-plus" data-title="bmi">
+                                Input your bmi</h3>
+                            <p class="card-description">Duo graece ponderum ne, ei mel aliquando. Pro te tamquam
+                                nonumes, nam no nemore epicurei
+                            </p>
+                        </header>
+
+                        <div class="calculate-form-body">
+
+                            <div class="form-grid-wrapper">
+                                <label class="visually-hidden" for="height">Height</label>
+                                <input class="input" type="number" id="height" placeholder="Height/cm" />
+
+                                <label class="visually-hidden" for="weight">Weight</label>
+                                <input class="input" type="number" id="weight" placeholder="Weight/kg" />
+
+                                <label class="visually-hidden" for="age">Age</label>
+                                <input class="input" type="number" id="age" placeholder="Age/years" />
+
+                                <label class="visually-hidden" for="gender">Gender</label>
+                                <select class="input" id="gender">
+                                    <option value="" disabled selected>Gender</option>
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                    <option value="other">Other</option>
+                                </select>
+
+                                <label class="visually-hidden" for="activity">Activity factor</label>
+                                <select class="input form-grid-input-wide" id="activity">
+                                    <option value="" disabled selected>Activity factor</option>
+                                    <option value="sedentary">Sedentary</option>
+                                    <option value="light">Lightly active</option>
+                                    <option value="moderate">Moderately active</option>
+                                    <option value="very">Very active</option>
+                                    <option value="extra">Extra active</option>
+                                </select>
+
+
+                                <button class="card-button button" type="submit">
+                                    Calculate
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+                <div class="calculate-table-wrapper flex">
+
+                    <table class="bmi-table">
+                        <thead>
+                            <tr>
+                                <th>BMI</th>
+                                <th>Weight status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Below 18.5</td>
+                                <td>Underweight</td>
+                            </tr>
+                            <tr>
+                                <td>18.5 - 24.9</td>
+                                <td>Healthy</td>
+                            </tr>
+                            <tr>
+                                <td>25.0 - 29.9</td>
+                                <td>Overweight</td>
+                            </tr>
+                            <tr>
+                                <td>30.0 and above</td>
+                                <td>Obese</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="2" class="bmi-footer"> <b> BMR</b> = Basal Metabolic Rate / <b> BMI </b> =
+                                    Body Mass Index
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+
+
+
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+    <footer class="footer">
+        <div class="footer-main">
+            <div class="footer-main-inner container">
+                <header class="footer-header">
+                    <a class="footer-logo" href="/">
+                        <img class="footer-logo-image" src="img/logo.png" alt="Kropp Logo" width="270" height="50"
+                            loading="lazy" />
+                    </a>
+                    <p class="footer-description">
+                        please feel free to send us an e-mail at <a
+                            href="mailto:kropp@qodeinteractive.com">kropp@qodeinteractive.com</a> For any additional
+                        inquiries
+                    </p>
+                </header>
+                <div class="footer-body">
+                    <div class="footer-column">
+                        <h2 class="footer-column-title">About</h2>
+                        <p class="footer-about card-description">
+                            Shape up your site with Kropp, a theme especially made for fitness & gym websites.
+                        </p>
+                    </div>
+                    <div class="footer-column">
+                        <h2 class="footer-column-title">Working hours</h2>
+                        <div class="footer-schedule">
+                            Monday - Friday<br />
+                            <time datetime="05:30/24:00">05:30 - 24:00</time>
+                        </div>
+                        <div class="footer-schedule">
+                            Weekdays<br />
+                            <time datetime="00:00/24:00">00:00 - 24:00</time>
+                        </div>
+                    </div>
+                    <div class="footer-column">
+                        <h2 class="footer-column-title">Location</h2>
+                        <address class="footer-address">
+                            68 Jay Street, Brooklyn,<br />
+                            NY 11201, United States
+                        </address>
+                        <div class="footer-contacts">
+                            <ul class="footer-contacts-list">
+                                <li class="footer-contacts-item">
+                                    <a class="footer-contacts-link"
+                                        href="mailto:kropp@qodeinteractive.com">kropp@qodeinteractive.com</a>
+                                </li>
+                                <li class="footer-contacts-item">
+                                    <a class="footer-contacts-link" href="tel:+17184076400">+ (1) 718 - 407 - 6400</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-column">
+                        <h2 class="footer-column-title has-arrow">start now</h2>
+                        <form class="footer-subscribe">
+                            <label class="visually-hidden" for="subscribe-email">Email</label>
+                            <input class="footer-subscribe-input input" id="subscribe-email" type="email"
+                                placeholder="Email" />
+                            <button class="visually-hidden" type="submit" title="Subscribe">
+                                Subscribe
+                            </button>
+                        </form>
+                        <div class="footer-soc1als">
+                            <ul class="footer-soc1als-list flex">
+
+                                <li class="footer-soc1als-item">
+                                    <a class="footer-soc1als-link flex" href="/" target="_blank">
+                                        <svg class="icon" width="24" height="24">
+                                            <use href="img/icons/sprite.svg#facebook"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+
+                                <li class="footer-soc1als-item">
+                                    <a class="footer-soc1als-link flex" href="/" target="_blank">
+                                        <svg class="icon" width="24" height="24">
+                                            <use href="img/icons/sprite.svg#instagram"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+
+                                <li class="footer-soc1als-item">
+                                    <a class="footer-soc1als-link flex" href="/" target="_blank">
+                                        <svg class="icon" width="24" height="24">
+                                            <use href="img/icons/sprite.svg#tiktok"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+
+                                <li class="footer-soc1als-item">
+                                    <a class="footer-soc1als-link flex" href="/" target="_blank">
+                                        <svg class="icon" width="24" height="24">
+                                            <use href="img/icons/sprite.svg#twitter"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+
+                                <li class="footer-soc1als-item">
+                                    <a class="footer-soc1als-link flex" href="/" target="_blank">
+                                        <svg class="icon" width="24" height="24">
+                                            <use href="img/icons/sprite.svg#youtube"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-extra">
+            <div class="footer-extra-inner container">
+                <div class="footer-copyright">
+                    © <time datetime="2022">2022</time> Qode Interactive, All Rights Reserved | <a href="/">Privacy
+                        Policy</a> | <a href="/">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
