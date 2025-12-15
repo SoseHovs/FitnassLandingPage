@@ -254,7 +254,7 @@
   column-gap: 1.25rem;
 }
 .join-us-form-input {
-  max-width: 400px;
+  max-width: 25rem;
 }
 
 /* location  section */
@@ -349,19 +349,23 @@
 
 .calculate-table-wrapper {
   position: relative;
-  justify-content: center;
-  align-items: center;
+
+  display: inline-grid;
+  place-items: center;
+
+  max-width: 38.125rem;
   width: 100%;
-  max-width: 610px;
-  aspect-ratio: 1;
+
+  padding: clamp(3rem, 4vw, 3.5rem);
+
+  aspect-ratio: 1 / 1;
 }
 
 .calculate-table-wrapper::after {
   content: '';
   position: absolute;
   z-index: 0;
-  width: 100%;
-  aspect-ratio: 1;
+  inset: 0;
   background-color: var(--color-dark);
   border-radius: var(--border-radius-circle);
 }
@@ -375,12 +379,12 @@
   position: relative;
   z-index: 1;
   border-collapse: collapse;
-  width: fit-content;
+  line-height: 1.3;
 }
 
 .bmi-table td {
-  padding-block: 0.9375rem;
-  padding-inline: 0.625rem;
+  padding-block: 1.2em;
+  padding-inline: 0.625em min(0.625rem, 4em);
   text-align: left;
   color: var(--color-light-gray);
 }
@@ -447,7 +451,7 @@ td.bmi-footer {
 }
 
 .footer-body {
-  grid-template-columns: var(--footerLogoWidth) repeat(3, 1fr);
+  grid-template-columns: 2fr 1fr 1fr 2fr;
 }
 
 .footer-column-title {
@@ -488,7 +492,11 @@ td.bmi-footer {
   padding-right: 4.375rem;
 }
 
+.footer-soc1als-link {
+  margin-bottom: 1.5rem;
+}
 .footer-soc1als-list {
+  flex-wrap: wrap;
   column-gap: 1.125rem;
 }
 

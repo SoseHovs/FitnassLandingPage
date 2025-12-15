@@ -6,6 +6,7 @@
 
 .input {
   width: 100%;
+  min-width: 9.6875rem;
   height: var(--input-height);
   padding-inline: 1.5625rem;
   background-color: transparent;
