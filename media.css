@@ -164,9 +164,6 @@
   }
 }
 @media (max-width: 48.75rem) {
-  html {
-    font-size: 15px;
-  }
   .join-us-video-play-button {
     width: 70px;
   }
@@ -192,9 +189,6 @@
 }
 
 @media (max-width: 29.375rem) {
-  html {
-    font-size: 14px;
-  }
   .header-menu-list {
     column-gap: 2rem;
   }
