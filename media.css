@@ -36,9 +36,9 @@
   }
 }
 
-@media (max-width: 1919px) {
+@media (max-width: 119.9375rem) {
   .motivation-card-image {
-    margin-block: -20px;
+    margin-block: -1.25rem;
   }
 }
 
@@ -48,7 +48,7 @@
   }
 } */
 
-@media (max-width: 1070px) {
+@media (max-width: 66.875rem) {
   .form-grid-wrapper {
     column-gap: 10px;
     grid-template-columns: 1fr;
@@ -58,7 +58,7 @@
     width: 100%;
   }
 }
-@media (max-width: 1024px) {
+@media (max-width: 64rem) {
   .motivation-card {
     padding-block: 50px;
   }
@@ -90,20 +90,6 @@
     width: 100%;
   }
 
-  .calculate-inner {
-    flex-direction: column;
-  }
-  .calculate-table-wrapper {
-    aspect-ratio: 1.5;
-    margin-top: 30px;
-  }
-  .bmi-table {
-    width: 80%;
-  }
-  .calculate-table-wrapper::after {
-    display: none;
-  }
-
   .footer-main {
     padding-top: 80px;
     padding-bottom: 50px;
@@ -127,7 +113,7 @@
   }
 }
 
-@media (max-width: 870px) {
+@media (max-width: 54.375rem) {
   :root {
     --header-height: 104px;
   }
@@ -163,8 +149,21 @@
   .calculate {
     padding-bottom: 1.125rem;
   }
+  .calculate-inner {
+    flex-direction: column;
+  }
+  .calculate-table-wrapper {
+    aspect-ratio: 1.5;
+    margin-top: 30px;
+  }
+  .bmi-table {
+    width: 80%;
+  }
+  .calculate-table-wrapper::after {
+    display: none;
+  }
 }
-@media (max-width: 780px) {
+@media (max-width: 48.75rem) {
   html {
     font-size: 15px;
   }
@@ -173,7 +172,7 @@
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 34.375rem) {
   .motivation-card,
   .motivation-item:nth-child(even) .motivation-card {
     flex-direction: column-reverse;
@@ -192,7 +191,7 @@
   }
 }
 
-@media (max-width: 470px) {
+@media (max-width: 29.375rem) {
   html {
     font-size: 14px;
   }
@@ -218,13 +217,13 @@
   }
 }
 
-@media (max-width: 435px) {
+@media (max-width: 27.1875rem) {
   .gallery-item {
     width: 100%;
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 23.75rem) {
   .header button {
     padding-inline: 0.625rem;
   }
